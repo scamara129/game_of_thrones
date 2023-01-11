@@ -14,13 +14,13 @@ How to Play:
 Here is an example of a game that ends after 3 turns. Kings are shown in blue: 
 
 <p float="left">
-  <img src="images/game_1.png" width="50" />
+  <img src="images/game_1.png" width="100" />
   &rarr;
-  <img src="images/game_1.png" width="50" /> 
+  <img src="images/game_2.png" width="100" /> 
   &rarr;
-  <img src="images/game_1.png" width="50" />
+  <img src="images/game_3.png" width="100" />
   &rarr;
-  <img src="images/game_1.png" width="50" />
+  <img src="images/game_4.png" width="100" />
 </p>
 
 ### Tournament Applet
