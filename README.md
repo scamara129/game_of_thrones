@@ -11,9 +11,17 @@ How to Play:
 - A **king** in a tournament is a vertex *v* such that for every other vertex *x*, there exists either an edge from *v* to *x* **OR** there exists a vertex *y* such that there is an edge from *v* to *y* AND *y* to *x*.
 - Players take turns removing vertices where the next player will play on the induced subgraph of the tournament, and ends when there is exactly one king left in the tournament. Hence the name Game of Thrones; there can only be one king.
 
-Here is an example of a game that ends after 3 turns: 
+Here is an example of a game that ends after 3 turns. Kings are shown in blue: 
 
-<img src="images/game_1.png?raw=true"/> &rarr <img src="images/game_2.png?raw=true"/> &rarr <img src="images/game_3.png?raw=true"/> &rarr <img src="images/game_4.png?raw=true"/>
+<p float="left">
+  <img src="images/game_1.png.png" width="50" />
+  &rarr;
+  <img src="images/game_1.png.png" width="50" /> 
+  &rarr;
+  <img src="images/game_1.png.png" width="50" />
+  &rarr;
+  <img src="images/game_1.png.png" width="50" />
+</p>
 
 ### Tournament Applet
 Following the JavaScript code in [Trevor’s William’s 2017 dissertation](https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=7649&context=etd), I was able to recreate his tournaments applet in GeoGebra. It takes in a binary string that represents the adjacencies of the upper triangle of a tournament and creates a tournament that can show/hide any kings. This applet can help you find where the kings are in a game and when in edit mode, you can manually delete vertices to play the game. 
